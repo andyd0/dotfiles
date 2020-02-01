@@ -1,14 +1,12 @@
-local hyper = { "cmd", "alt", "ctrl", "shift" }
+hyper = { "cmd", "alt", "ctrl", "shift" }
+
+require "apps"
 
 hs.hotkey.bind(hyper, "0", function()
   hs.reload()
-end
-)
+end)
 
 hs.notify.new({title="Hammerspoon", informativeText="Config loaded"}):send()
-
-require "apps"
-require "grid"
 
 hs.hotkey.bind(hyper, "r", function() hs.reload(); end)
 hs.hotkey.bind(hyper, "w", function() hs.eventtap.keyStrokes('¯\\_(ツ)_/¯'); end)
