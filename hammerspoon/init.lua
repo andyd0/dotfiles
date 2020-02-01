@@ -1,6 +1,7 @@
 hyper = { "cmd", "alt", "ctrl", "shift" }
 
 require "apps"
+require "grid"
 
 hs.hotkey.bind(hyper, "0", function()
   hs.reload()
