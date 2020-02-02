@@ -1,6 +1,6 @@
 # Dotfiles
 
-Inspired by...
+Mostly modified / based on...
 
 https://github.com/rkalis/dotfiles
 
