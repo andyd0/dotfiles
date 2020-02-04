@@ -270,6 +270,7 @@ alias ttsp='teachable-tools console --app staff --env production'
 alias ttfs='teachable-tools console --app fedora --env staging'
 alias ttss='teachable-tools console --app staff --env staging'
 alias ttc='teachable-tools changelog --app fedora --env production'
+alias ttr1='teachable-tools console -a fedora -e review-1'
 alias setup="osascript ~/run.scpt"
 alias decrypt="./scripts/secret-env decrypt"
 alias gist-cb="gist -p -c -o -P -d $(date "+%Y.%m.%d-%H.%M.%S")"
