@@ -6,11 +6,29 @@ function getWin()
   return hs.window.focusedWindow()
 end
 
+-- Uses baseMove function from https://github.com/mtrpcic/hs-config
+-- to be more like Magnet for arrow keys
+function baseMove(x, y, w, h)
+  return function()
+    local win = hs.window.focusedWindow()
+    local f = win:frame()
+    local screen = win:screen()
+    local max = screen:frame()
+
+    -- add max.x so it stays on the same screen, works with my second screen
+    f.x = max.w * x + max.x
+    f.y = max.h * y
+    f.w = max.w * w
+    f.h = max.h * h
+    win:setFrame(f, 0)
+  end
+end
+
 --- arrows: move window
-hs.hotkey.bind(hyper, "left", function() hs.grid.pushWindowLeft() end)
-hs.hotkey.bind(hyper, "right", function() hs.grid.pushWindowRight() end)
-hs.hotkey.bind(hyper, "up", function() hs.grid.pushWindowUp() end)
-hs.hotkey.bind(hyper, "down", function() hs.grid.pushWindowDown() end)
+hs.hotkey.bind(hyper, 'left', baseMove(0, 0, 0.5, 1))
+hs.hotkey.bind(hyper, 'right', baseMove(0.5, 0, 0.5, 1))
+hs.hotkey.bind(hyper, 'down', baseMove(0, 0.5, 1, 0.5))
+hs.hotkey.bind(hyper, 'up', baseMove(0, 0, 1, 0.5))
 
 --- ikjl: resize window
 hs.hotkey.bind(hyper, "i", function() hs.grid.resizeWindowShorter() end)

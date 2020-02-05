@@ -233,6 +233,7 @@ alias marketing="cd ~/Documents/teachable-marketing/"
 alias ref="cd ~/Documents/referable"
 alias backup="cd ~/Documents/config_files"
 alias practice="cd ~/Documents/practice/ct_practice"
+alias dotfiles="cd ~/.dotfiles"
 
 #   ---------------------------
 #   Kubernetes
