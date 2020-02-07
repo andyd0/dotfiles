@@ -10,8 +10,7 @@ DESTINATION="$(realpath ~)"
 
 info "Configuraing misc scripts..."
 
-find * -name "*.*" | while read fn; do
-  symlink "$SOURCE/$fn" "$DESTINATION/$fn"
-done
+symlink "$SOURCE/.pryrc" "$DESTINATION/.pryrc"
+symlink "$SOURCE/run.scpt" "$DESTINATION/run.scpt"
 
 success "Finished configuring misc scripts."

@@ -1,0 +1,21 @@
+#   ---------------------------
+#   VPN
+#   ---------------------------
+function staging-vpn() {
+  osascript -e 'tell application "Tunnelblick"' -e 'disconnect all' -e 'end tell'
+  osascript -e 'tell application "Tunnelblick"' -e 'connect "adavila.zeachable"' -e 'end tell'
+}
+
+function prod-vpn() {
+  osascript -e 'tell application "Tunnelblick"' -e 'disconnect all' -e 'end tell'
+  osascript -e 'tell application "Tunnelblick"' -e 'connect "adavila.teachable"' -e 'end tell'
+}
+
+function home-vpn() {
+  osascript -e 'tell application "Tunnelblick"' -e 'disconnect all' -e 'end tell'
+  osascript -e 'tell application "Tunnelblick"' -e 'connect "client"' -e 'end tell'
+}
+
+function disconnect-vpn() {
+  osascript -e 'tell application "Tunnelblick"' -e 'disconnect all' -e 'end tell'
+}

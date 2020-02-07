@@ -13,9 +13,7 @@ info "Setting up Karabiner..."
 substep_info "Creating Karabinerfolder..."
 mkdir -p $DESTINATION
 
-find * -name "*.json" | while read fn; do
-    symlink "$SOURCE/$fn" "$DESTINATION/$fn"
-done
+symlink "$SOURCE/karabiner.json" "$DESTINATION/karabiner.json"
 clear_broken_symlinks "$DESTINATION"
 
 success "Finished setting up Karabiner."
