@@ -19,7 +19,7 @@ tell application "iTerm2"
         create tab with default profile
         tell current session
             write text "fedora"
-            write text "rs"
+            write text "bundle exec rails server"
         end tell
     end tell
 
