@@ -10,7 +10,6 @@ DESTINATION="$(realpath ~)"
 
 info "Configuraing misc scripts..."
 
-symlink "$SOURCE/.pryrc" "$DESTINATION/.pryrc"
 symlink "$SOURCE/run.scpt" "$DESTINATION/run.scpt"
 
 success "Finished configuring misc scripts."

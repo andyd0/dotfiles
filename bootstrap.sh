@@ -24,6 +24,7 @@ else
 fi
 
 # Package control must be executed first in order for the rest to work
+info "Installing packages"
 ./packages/setup.sh
 
 find * -name "setup.sh" -not -wholename "packages*" | while read setup; do
