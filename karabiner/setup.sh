@@ -10,7 +10,7 @@ DESTINATION="$(realpath ~/.config/karabiner)"
 
 info "Setting up Karabiner..."
 
-substep_info "Creating Karabinerfolder..."
+substep_info "Creating Karabiner folder..."
 mkdir -p $DESTINATION
 
 symlink "$SOURCE/karabiner.json" "$DESTINATION/karabiner.json"

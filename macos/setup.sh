@@ -211,9 +211,6 @@ defaults write com.apple.dock show-process-indicators -bool true
 # Don’t animate opening applications from the Dock
 defaults write com.apple.dock launchanim -bool false
 
-# Automatically hide and show the Dock
-defaults write com.apple.dock autohide -bool true
-
 # Make Dock icons of hidden applications translucent
 defaults write com.apple.dock showhidden -bool true
 
