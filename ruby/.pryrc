@@ -1,9 +1,17 @@
 # frozen_string_literal: true
+Pry.config.color = true
+Pry.config.pager = false
+Pry.config.auto_indent = true
+Pry.config.correct_indent = true
+
+Pry.config.prompt = [proc { 'input> ' },
+                     proc { '     | ' }]
 
 begin
   require 'awesome_print'
+  AwesomePrint.pry!
 rescue StandardError
-  puts 'no awesome_print :('
+  puts 'awesome_print not available'
 end
 
 Pry.commands.alias_command 'c', 'continue'
