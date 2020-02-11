@@ -614,9 +614,9 @@
 	<key>NSWindow Frame UKCrashReporter</key>
 	<string>848 212 592 584 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>720 81 714 796 0 0 1440 877 </string>
+	<string>1280 104 1273 1313 0 0 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>396 196 930 678 0 0 1440 877 </string>
+	<string>1264 728 945 678 0 0 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
 	<string>1280 103 1274 1314 0 0 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 3</key>
@@ -1261,7 +1261,7 @@
 			<key>Name</key>
 			<string>main</string>
 			<key>Non Ascii Font</key>
-			<string>HackNerdFontComplete-Regular 15</string>
+			<string>HackNerdFontComplete-Italic 15</string>
 			<key>Non-ASCII Anti Aliased</key>
 			<true/>
 			<key>Non-ASCII Ligatures</key>
@@ -3053,9 +3053,13 @@
 		<string>3.3.4</string>
 		<string>3.3.1</string>
 		<string>3.3.5</string>
-		<string>3.2.9</string>
 		<string>3.3.0</string>
+		<string>3.2.9</string>
 		<string>3.3.2</string>
+	</array>
+	<key>NoSyncBFPRecents</key>
+	<array>
+		<string>Hack Nerd Font</string>
 	</array>
 	<key>NoSyncCommandHistoryHasEverBeenUsed</key>
 	<true/>
@@ -3073,9 +3077,9 @@
 	<key>NoSyncFrame_SharedPreferences</key>
 	<dict>
 		<key>screenFrame</key>
-		<string>{{0, 0}, {1440, 900}}</string>
+		<string>{{0, 0}, {2560, 1440}}</string>
 		<key>topLeft</key>
-		<string>{307, 789}</string>
+		<string>{243, 1052}</string>
 	</dict>
 	<key>NoSyncHaveUsedCopyMode</key>
 	<true/>
@@ -3088,7 +3092,7 @@
 	<key>NoSyncLastTipTime</key>
 	<real>591294900.38306797</real>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
-	<integer>43</integer>
+	<integer>47</integer>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
@@ -3892,16 +3896,16 @@
 	</array>
 	<key>NoSyncSearchHistory2</key>
 	<array>
-		<string>payout_method</string>
-		<string>usd_</string>
-		<string>vat_incl</string>
-		<string>stripe_+c</string>
-		<string>stripe_schar</string>
-		<string>stripe_st</string>
-		<string>charge_tok</string>
-		<string>original</string>
-		<string>oringin</string>
-		<string>stripe_sb`St</string>
+		<string>stripe</string>
+		<string>money:</string>
+		<string>moneyu</string>
+		<string>subscrip</string>
+		<string>rake</string>
+		<string>extend</string>
+		<string>extebnd</string>
+		<string>back_of</string>
+		<string>hammer</string>
+		<string>paypal</string>
 	</array>
 	<key>NoSyncTimeOfFirstLaunchOfVersionWithTip</key>
 	<real>575228294.05299401</real>
@@ -4038,7 +4042,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2020-02-01T23:14:19Z</date>
+	<date>2020-02-07T21:16:57Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SUUpdateRelaunchingMarker</key>
