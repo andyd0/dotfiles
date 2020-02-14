@@ -6,7 +6,7 @@ cd "$DIR"
 . ../scripts/functions.sh
 
 SOURCE="$(realpath .)"
-DESTINATION="$(realpath ~/.config/karabiner)"
+DESTINATION="~/.config/karabiner"
 
 info "Setting up Karabiner..."
 

@@ -13,40 +13,36 @@ if test "$(uname)" = "Darwin"; then
 
   info "Check and install Homebrew"
 
-  cd "$( dirname "$0" )"
-
   which -s brew
 
   if [[ $? != 0 ]] ; then
     # Install Homebrew
     # https://github.com/mxcl/homebrew/wiki/installation
     /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-  else
-    # Update Brew formulas
-    brew update
-
-    # Install Brewfile
-    brew bundle
-
-    # Outdated Packages
-    brew outdated
-
-    # Upgrade Existing Bundles
-    brew upgrade
-
-    # Cleanup any old software
-    brew cleanup
-
-    # Run the Doctor
-    brew doctor
-
-    # List all Packages
-    brew list --versions
-
-    # List all Services
-    brew services list
-
   fi
+  # Update Brew formulas
+  brew update
+
+  # Install Brewfile
+  brew bundle
+
+  # Outdated Packages
+  brew outdated
+
+  # Upgrade Existing Bundles
+  brew upgrade
+
+  # Cleanup any old software
+  brew cleanup
+
+  # Run the Doctor
+  brew doctor
+
+  # List all Packages
+  brew list --versions
+
+  # List all Services
+  brew services list
 
   success "Done with Homebrew setup"
 fi
