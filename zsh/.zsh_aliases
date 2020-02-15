@@ -99,7 +99,7 @@ alias grh="git reset --hard" # undo all changes
 alias gblank="git commit --allow-empty -m"
 
 alias gist-cb="gist -p -c -o -P -d $(date "+%Y.%m.%d-%H.%M.%S")"
-
+alias gdelete="git ls-files --deleted | xargs git add" # staged only deleted files
 
 #   ---------------------------
 #   ColorLS
@@ -131,41 +131,11 @@ alias dotfiles="cd ~/.dotfiles"
 
 
 #   ---------------------------
-#   Dev
+#   Misc
 #   ---------------------------
-alias be="bundle exec"
-alias bi="bundle install"
-alias nrs='npm run start'
-alias bes='bundle exec sidekiq'
-alias rtest="bundle exec rspec"
-alias ctest="bundle exec cucumber"
-alias rs='bundle exec rails s'
-alias rc='bundle exec rails c'
-alias mdev="bin/rake db:migrate RAILS_ENV=development"
-alias mtest="bin/rake db:migrate RAILS_ENV=test"
-alias tlogs="tail -f ~/.teachable-tools.log"
 alias setup="osascript ~/run.scpt"
 alias main="~/profile.sh main"
 alias remote="~/profile.sh remote"
-
-
-#   ---------------------------
-#   Remote
-#   ---------------------------
-alias ttfp='teachable-tools console --app fedora --env production'
-alias ttfp-bash="teachable-tools jobs:run bash --app fedora --env production"
-alias ttfp-large="teachable-tools console --app fedora --env production --task-definition production-fedora-console-large"
-alias ttfs-large="teachable-tools console --app fedora --env staging --task-definition staging-fedora-console-large"
-alias ttsp='teachable-tools console --app staff --env production'
-alias ttfs='teachable-tools console --app fedora --env staging'
-alias ttss='teachable-tools console --app staff --env staging'
-alias ttc='teachable-tools changelog --app fedora --env production'
-alias ttr1='teachable-tools console -a fedora -e review-1'
-
-
-#   ---------------------------
-#   Misc
-#   ---------------------------
 alias sz='source ~/.zshrc'
 alias cz='code ~/.zshrc'
 alias cpu_hogs='ps wwaxr -o pid,stat,%cpu,time,command | head -10' # Find CPU Hogs
@@ -174,4 +144,3 @@ alias check="history | grep" # then what you're looking for
 
 alias hpon="blueutil --connect cc-98-8b-f2-72-85"
 alias hpoff="blueutil --disconnect cc-98-8b-f2-72-85"
-alias restaurants="python3 ~/Documents/backups/restaurants.py"
