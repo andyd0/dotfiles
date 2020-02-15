@@ -25,12 +25,6 @@ SPACESHIP_DOCKER_SHOW="false"
 SPACESHIP_KUBECONTEXT_SHOW="false"
 SPACESHIP_NODE_SHOW="false"
 
-# Set list of themes to pick from when loading at random
-# Setting this variable when ZSH_THEME=random will cause zsh to load
-# a theme from this variable instead of looking in ~/.oh-my-zsh/themes/
-# If set to an empty array, this variable will have no effect.
-# ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell" "agnoster" )
-
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
 
@@ -112,7 +106,5 @@ export PATH="$HOME/.rbenv/bin:$PATH"
 . ~/.zsh_aliases
 . ~/.zsh_functions
 
-
-source $(dirname $(gem which colorls))/tab_complete.sh
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 eval "$(rbenv init -)"

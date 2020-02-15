@@ -101,12 +101,6 @@ alias gblank="git commit --allow-empty -m"
 alias gist-cb="gist -p -c -o -P -d $(date "+%Y.%m.%d-%H.%M.%S")"
 alias gdelete="git ls-files --deleted | xargs git add" # staged only deleted files
 
-#   ---------------------------
-#   ColorLS
-#   ---------------------------
-alias ls='colorls --dark --sd --report'
-alias lc='colorls --dark --tree'
-
 
 #   ---------------------------
 #   FOLDERS
