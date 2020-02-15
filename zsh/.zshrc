@@ -103,7 +103,7 @@ export ERL_AFLAGS="-kernel shell_history enabled"
 export PATH="$HOME/.rbenv/bin:$PATH"
 
 . ~/.zsh_aliases
-. ~/.zsh_aliases
+. ~/.zsh_t_aliases
 . ~/.zsh_functions
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"

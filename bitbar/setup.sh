@@ -6,7 +6,7 @@ cd "$DIR"
 . ../scripts/functions.sh
 
 SOURCE="$(realpath .)"
-DESTINATION="~/.bitbar/bitbar_plugins"
+DESTINATION="$(realpath ~/Documents/bitbar_plugins)"
 
 info "Setting up Bitbar..."
 

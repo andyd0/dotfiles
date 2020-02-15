@@ -10,9 +10,9 @@ DESTINATION="$(realpath ~)"
 
 info "Configuraing zsh..."
 
-find * -name ".zsh*" | while read fn; do
-  fn=$(basename $fn)
+find . -name ".zsh*" | while read fn; do
   symlink "$SOURCE/$fn" "$DESTINATION/$fn"
 done
+clear_broken_symlinks "$DESTINATION"
 
 success "Finished configuring zsh."
