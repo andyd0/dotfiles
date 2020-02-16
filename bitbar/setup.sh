@@ -15,4 +15,4 @@ mkdir -p $DESTINATION
 
 symlink "$SOURCE/utc.1s.sh" "$DESTINATION/utc.1s.sh"
 
-success "Finished setting up Karabiner."
+success "Finished setting up Bitbar."
