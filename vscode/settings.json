@@ -1,0 +1,52 @@
+{
+  "editor.autoClosingBrackets": "always",
+  "editor.folding": false,
+  "editor.fontFamily": "Hack, Menlo, Monaco, 'Courier New', monospace",
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.occurrencesHighlight": false,
+  "editor.renderLineHighlight": "all",
+  "editor.renderWhitespace": "none",
+  "editor.scrollBeyondLastLine": true,
+  "editor.snippetSuggestions": "top",
+  "editor.tabCompletion": "on",
+  "editor.tabSize": 2,
+  "editor.trimAutoWhitespace": false,
+  "editor.wordWrap": "on",
+  "files.hotExit": "onExit",
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "search.showLineNumbers": true,
+  "window.closeWhenEmpty": true,
+  "window.openFilesInNewWindow": "on",
+  "workbench.editor.highlightModifiedTabs": true,
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.tips.enabled": false,
+  "files.associations": {
+    "*.yml.*": "yaml"
+  },
+  "ruby.lint": {
+    "rubocop": {
+      "useBundler": true,
+      "lint": true
+    }
+  },
+  "ruby.format": "rubocop",
+  "ruby.useBundler": true,
+  "ruby.lintDebounceTime": 1000,
+  "files.exclude": {
+    "**/.idea": true
+  },
+  "workbench.sideBar.location": "left",
+  "window.zoomLevel": 0,
+  "editor.minimap.enabled": true,
+  "editor.renderControlCharacters": false,
+  "breadcrumbs.enabled": false,
+  "editor.fontSize": 14,
+  "workbench.activityBar.visible": true,
+  "workbench.statusBar.visible": false,
+  "workbench.colorTheme": "Dracula"
+}

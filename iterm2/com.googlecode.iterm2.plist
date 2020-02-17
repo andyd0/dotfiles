@@ -614,7 +614,7 @@
 	<key>NSWindow Frame UKCrashReporter</key>
 	<string>848 212 592 584 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>1280 104 1273 1313 0 0 2560 1417 </string>
+	<string>160 194 930 678 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>1264 728 945 678 0 0 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
@@ -3054,8 +3054,8 @@
 		<string>3.3.1</string>
 		<string>3.3.5</string>
 		<string>3.3.0</string>
-		<string>3.2.9</string>
 		<string>3.3.2</string>
+		<string>3.2.9</string>
 	</array>
 	<key>NoSyncBFPRecents</key>
 	<array>
@@ -3092,7 +3092,7 @@
 	<key>NoSyncLastTipTime</key>
 	<real>591294900.38306797</real>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
-	<integer>47</integer>
+	<integer>49</integer>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
@@ -3896,16 +3896,16 @@
 	</array>
 	<key>NoSyncSearchHistory2</key>
 	<array>
-		<string>stripe</string>
+		<string>colorls</string>
+		<string>format</string>
+		<string>  for</string>
+		<string>stripe_toke</string>
+		<string>stripe_sub</string>
+		<string>stripe_subs</string>
+		<string>striipe</string>
+		<string>striep</string>
+		<string>destroyed_at</string>
 		<string>money:</string>
-		<string>moneyu</string>
-		<string>subscrip</string>
-		<string>rake</string>
-		<string>extend</string>
-		<string>extebnd</string>
-		<string>back_of</string>
-		<string>hammer</string>
-		<string>paypal</string>
 	</array>
 	<key>NoSyncTimeOfFirstLaunchOfVersionWithTip</key>
 	<real>575228294.05299401</real>
@@ -4031,6 +4031,8 @@
 	<string>/Users/andydavila/.dotfiles/iterm2</string>
 	<key>Print In Black And White</key>
 	<true/>
+	<key>PromptOnQuit</key>
+	<false/>
 	<key>SUAutomaticallyUpdate</key>
 	<true/>
 	<key>SUEnableAutomaticChecks</key>
@@ -4042,7 +4044,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2020-02-07T21:16:57Z</date>
+	<date>2020-02-13T16:13:59Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SUUpdateRelaunchingMarker</key>
