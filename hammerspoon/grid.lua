@@ -6,8 +6,8 @@ function getWin()
   return hs.window.focusedWindow()
 end
 
--- Uses baseMove function from https://github.com/mtrpcic/hs-config
--- to be more like Magnet for arrow keys
+--- Uses baseMove function from https://github.com/mtrpcic/hs-config
+--- to be more like Magnet for arrow keys
 function baseMove(x, y, w, h)
   return function()
     local win = hs.window.focusedWindow()
@@ -30,6 +30,7 @@ hs.hotkey.bind(hyper, 'right', baseMove(0.5, 0, 0.5, 1))
 hs.hotkey.bind(hyper, 'down', baseMove(0, 0.5, 1, 0.5))
 hs.hotkey.bind(hyper, 'up', baseMove(0, 0, 1, 0.5))
 
+--- https://github.com/webpro/dotfiles/blob/master/config/hammerspoon/grid.lua
 --- ikjl: resize window
 hs.hotkey.bind(hyper, "i", function() hs.grid.resizeWindowShorter() end)
 hs.hotkey.bind(hyper, "k", function() hs.grid.resizeWindowTaller() end)
