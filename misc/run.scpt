@@ -2,7 +2,7 @@ tell application "iTerm2"
     tell current session of current window
         split horizontally with default profile
         write text "fedora"
-        write text "npm run start"
+        write text "yarn start"
     end tell
 
     tell current tab of current window
