@@ -53,3 +53,20 @@ hs.hotkey.bind(hyper, "space", function() hs.grid.maximizeWindow() end)
 
 --- .: minimize window
 hs.hotkey.bind(hyper, ".", function() hs.grid.set(getWin(), '0,0 1x1'); end)
+
+--- layout does not work with Spotlight names
+local macbook = "Color LCD"
+local iterm = hs.appfinder.appFromName("iTerm2")
+local vscode = hs.appfinder.appFromName("Code")
+
+local windowLayout = {
+  {vscode, nil, macbook, hs.layout.left50,  nil, nil},
+  {iterm,  nil, macbook, hs.layout.right50, nil, nil},
+}
+
+hs.hotkey.bind(hyper, '1', function()
+  hs.application.launchOrFocus("Visual Studio Code")
+  hs.application.launchOrFocus("iTerm")
+
+  hs.layout.apply(windowLayout)
+end)
