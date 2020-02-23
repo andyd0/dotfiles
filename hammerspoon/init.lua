@@ -5,4 +5,5 @@ require "grid"
 require "misc"
 
 hs.notify.new({title="Hammerspoon", informativeText="Config loaded"}):send()
+hs.hotkey.bind(hyper, 'y', hs.toggleConsole)
 hs.hotkey.bind(hyper, "r", function() hs.reload(); end)
