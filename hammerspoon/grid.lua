@@ -1,4 +1,4 @@
-hs.grid.setGrid'3x3'
+hs.grid.setGrid'2x2'
 hs.grid.setMargins("0,0")
 hs.window.animationDuration = 0
 
@@ -50,9 +50,6 @@ hs.hotkey.bind(hyper, ",", function() hs.grid.snap(getWin()) end)
 
 --- space: maximize window
 hs.hotkey.bind(hyper, "space", function() hs.grid.maximizeWindow() end)
-
---- .: minimize window
-hs.hotkey.bind(hyper, ".", function() hs.grid.set(getWin(), '0,0 1x1'); end)
 
 --- layout does not work with Spotlight names
 local macbook = "Color LCD"
