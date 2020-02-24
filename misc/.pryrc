@@ -1,4 +1,5 @@
 # frozen_string_literal: true
+
 Pry.config.color = true
 Pry.config.pager = false
 Pry.config.auto_indent = true
