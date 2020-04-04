@@ -12,5 +12,6 @@ info "Configuraing misc scripts..."
 
 symlink "$SOURCE/run.scpt" "$DESTINATION/run.scpt"
 symlink "$SOURCE/.pryrc" "$DESTINATION/.pryrc"
+symlink "$SOURCE/tat.sh" "$DESTINATION/tat.sh"
 
 success "Finished configuring misc scripts."

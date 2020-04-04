@@ -101,10 +101,12 @@ export PATH=$(brew --prefix openvpn)/sbin:$PATH
 export PATH="/usr/local/opt/postgresql@9.6/bin:$PATH"
 export ERL_AFLAGS="-kernel shell_history enabled"
 export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"
 
 . ~/.zsh_aliases
 . ~/.zsh_t_aliases
 . ~/.zsh_functions
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
-eval "$(rbenv init -)"
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
