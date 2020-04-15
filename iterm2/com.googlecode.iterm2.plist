@@ -8,6 +8,8 @@
 	<true/>
 	<key>AppleAntiAliasingThreshold</key>
 	<integer>1</integer>
+	<key>ApplePressAndHoldEnabled</key>
+	<false/>
 	<key>AppleScrollAnimationEnabled</key>
 	<integer>0</integer>
 	<key>AppleSmoothFixedFontsSizeThreshold</key>
@@ -614,9 +616,9 @@
 	<key>NSWindow Frame UKCrashReporter</key>
 	<string>848 212 592 584 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>160 194 930 678 0 0 1440 877 </string>
+	<string>0 85 1274 1332 0 0 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>1264 728 945 678 0 0 2560 1417 </string>
+	<string>1264 728 930 678 0 0 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
 	<string>1280 103 1274 1314 0 0 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 3</key>
@@ -3050,12 +3052,13 @@
 	<key>NoSyncAllAppVersions</key>
 	<array>
 		<string>3.3.6</string>
-		<string>3.3.4</string>
+		<string>3.3.2</string>
 		<string>3.3.1</string>
 		<string>3.3.5</string>
-		<string>3.3.0</string>
-		<string>3.3.2</string>
+		<string>3.3.9</string>
 		<string>3.2.9</string>
+		<string>3.3.0</string>
+		<string>3.3.4</string>
 	</array>
 	<key>NoSyncBFPRecents</key>
 	<array>
@@ -3092,7 +3095,7 @@
 	<key>NoSyncLastTipTime</key>
 	<real>591294900.38306797</real>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
-	<integer>49</integer>
+	<integer>84</integer>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
@@ -3881,32 +3884,6 @@
 			</dict>
 		</array>
 	</dict>
-	<key>NoSyncSearchHistory</key>
-	<array>
-		<string>affic</string>
-		<string>newsal</string>
-		<string>route</string>
-		<string>amounte</string>
-		<string>amount_ef</string>
-		<string>amount_f</string>
-		<string>aamoun</string>
-		<string>90.71</string>
-		<string>exchange</string>
-		<string>plan</string>
-	</array>
-	<key>NoSyncSearchHistory2</key>
-	<array>
-		<string>colorls</string>
-		<string>format</string>
-		<string>  for</string>
-		<string>stripe_toke</string>
-		<string>stripe_sub</string>
-		<string>stripe_subs</string>
-		<string>striipe</string>
-		<string>striep</string>
-		<string>destroyed_at</string>
-		<string>money:</string>
-	</array>
 	<key>NoSyncTimeOfFirstLaunchOfVersionWithTip</key>
 	<real>575228294.05299401</real>
 	<key>NoSyncTipsToNotShow</key>
@@ -4044,13 +4021,13 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2020-02-13T16:13:59Z</date>
+	<date>2020-04-10T02:18:44Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SUUpdateRelaunchingMarker</key>
 	<false/>
 	<key>ShowFullScreenTabBar</key>
-	<false/>
+	<true/>
 	<key>SoundForEsc</key>
 	<false/>
 	<key>StatusBarPosition</key>
@@ -4066,7 +4043,7 @@
 	<key>findMode_iTerm</key>
 	<integer>0</integer>
 	<key>iTerm Version</key>
-	<string>3.3.6</string>
+	<string>3.3.9</string>
 	<key>kCPKSelectionViewPreferredModeKey</key>
 	<integer>0</integer>
 	<key>kCPKSelectionViewShowHSBTextFieldsKey</key>

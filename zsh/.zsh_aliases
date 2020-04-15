@@ -136,8 +136,9 @@ alias cz='code ~/.zshrc'
 alias cpu_hogs='ps wwaxr -o pid,stat,%cpu,time,command | head -10' # Find CPU Hogs
 alias cleanupDS="find . -type f -name '*.DS_Store' -ls -delete"
 alias check="history | grep" # then what you're looking for
+alias mux="tmuxinator"
 
 alias hpon="blueutil --connect cc-98-8b-f2-72-85"
 alias hpoff="blueutil --disconnect cc-98-8b-f2-72-85"
-alias wifi_off="networksetup -setairportpower airport off"
-alias wifi_on="networksetup -setairportpower airport on"
+alias wioff="networksetup -setairportpower airport off"
+alias wion="networksetup -setairportpower airport on"
