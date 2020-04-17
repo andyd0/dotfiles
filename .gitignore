@@ -1,2 +1,4 @@
 .DS_Store
 zsh/.zsh_t_aliases
+tmux/fedora.yml
+tmux/fedora-staff.yml
