@@ -122,9 +122,10 @@ defaults write com.apple.universalaccess HIDScrollZoomModifierMask -int 262144
 # Screen                                                                      #
 ###############################################################################
 
-# Require password immediately after sleep or screen saver begins
-defaults write com.apple.screensaver askForPassword -int 1
-defaults write com.apple.screensaver askForPasswordDelay -int 0
+# Require password after some time has passed when going to sleep or
+# when screen saver begins
+defaults write com.apple.screensaver askForPassword true
+defaults write com.apple.screensaver askForPasswordDelay -int 600
 
 # Save screenshots to the desktop
 defaults write com.apple.screencapture location -string "${HOME}/Desktop"

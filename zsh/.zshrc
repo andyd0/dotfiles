@@ -72,12 +72,13 @@ SPACESHIP_NODE_SHOW="false"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
-  vscode
+  alias-finder
+  copydir
+  extract
   httpie
   history
   jsontools
-  zsh-autosuggestions
-  zsh-syntax-highlighting
+  vscode
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -111,3 +112,10 @@ eval "$(rbenv init -)"
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /usr/local/share/zsh-history-substring-search/zsh-history-substring-search.zsh
+
+bindkey '^[OA' history-substring-search-up
+bindkey '^[OB' history-substring-search-down
