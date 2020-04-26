@@ -13,5 +13,6 @@ info "Configuraing misc scripts..."
 symlink "$SOURCE/.pryrc" "$DESTINATION/.pryrc"
 symlink "$SOURCE/.vimrc" "$DESTINATION/.vimrc"
 symlink "$SOURCE/tat.sh" "$DESTINATION/tat.sh"
+symlink "$SOURCE/.fzf.zsh" "$DESTINATION/.fzf.zsh"
 
 success "Finished configuring misc scripts."

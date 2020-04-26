@@ -97,10 +97,11 @@ alias gam="git commit --amend -m" # change commit message if no files staged
 alias gaf="git commit --amend --no-edit" # add files to latest commit
 alias gr="git reset --soft HEAD~1" # undo last commit but changes remain
 alias grh="git reset --hard" # undo all changes
-alias gblank="git commit --allow-empty -m"
+alias gempty="git commit --allow-empty -m"
 
 alias gist-cb="gist -p -c -o -P -d $(date "+%Y.%m.%d-%H.%M.%S")"
 alias gdelete="git ls-files --deleted | xargs git add" # staged only deleted files
+alias gitb="git rev-parse --abbrev-ref HEAD | tr -d '\n' | pbcopy"
 
 
 #   ---------------------------
@@ -114,6 +115,7 @@ alias backup="cd ~/Documents/config_files"
 alias practice="cd ~/Documents/practice/ct_practice"
 alias dotfiles="cd ~/.dotfiles"
 alias lunchable="cd ~/Documents/lunchable"
+
 
 #   ---------------------------
 #   Kubernetes
@@ -132,7 +134,7 @@ alias setup="osascript ~/run.scpt"
 alias main="~/profile.sh main"
 alias remote="~/profile.sh remote"
 alias sz='source ~/.zshrc'
-alias cz='code ~/.zshrc'
+alias cz='code ~/.zsh_aliases'
 alias cpu_hogs='ps wwaxr -o pid,stat,%cpu,time,command | head -10' # Find CPU Hogs
 alias cleanupDS="find . -type f -name '*.DS_Store' -ls -delete"
 alias check="history | grep" # then what you're looking for

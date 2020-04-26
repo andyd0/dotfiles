@@ -383,6 +383,8 @@
 	<false/>
 	<key>DoubleClickPerformsSmartSelection</key>
 	<true/>
+	<key>FocusFollowsMouse</key>
+	<true/>
 	<key>GlobalKeyMap</key>
 	<dict>
 		<key>0x19-0x60000</key>
@@ -618,7 +620,7 @@
 	<key>NSWindow Frame UKCrashReporter</key>
 	<string>848 212 592 584 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>1280 108 1274 1309 0 0 2560 1417 </string>
+	<string>1280 75 1274 1342 0 0 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>1264 728 930 678 0 0 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
@@ -3058,9 +3060,9 @@
 		<string>3.3.1</string>
 		<string>3.3.5</string>
 		<string>3.3.9</string>
-		<string>3.3.0</string>
-		<string>3.3.2</string>
 		<string>3.2.9</string>
+		<string>3.3.2</string>
+		<string>3.3.0</string>
 	</array>
 	<key>NoSyncBFPRecents</key>
 	<array>
@@ -3084,7 +3086,7 @@
 		<key>screenFrame</key>
 		<string>{{0, 0}, {2560, 1440}}</string>
 		<key>topLeft</key>
-		<string>{243, 1052}</string>
+		<string>{426, 880}</string>
 	</dict>
 	<key>NoSyncHaveUsedCopyMode</key>
 	<true/>
@@ -3097,7 +3099,7 @@
 	<key>NoSyncLastTipTime</key>
 	<real>591294900.38306797</real>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
-	<integer>89</integer>
+	<integer>93</integer>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
@@ -4023,7 +4025,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2020-04-15T13:58:33Z</date>
+	<date>2020-04-22T14:01:08Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SUUpdateRelaunchingMarker</key>
@@ -4034,6 +4036,8 @@
 	<false/>
 	<key>StatusBarPosition</key>
 	<integer>0</integer>
+	<key>ThreeFingerEmulates</key>
+	<true/>
 	<key>UKCrashReporterLastCrashReportDate</key>
 	<real>1554588160</real>
 	<key>VisualIndicatorForEsc</key>
