@@ -98,6 +98,7 @@ if [ -f ~/.bash_profile ]; then
     . ~/.bash_profile;
 fi
 
+export RUBYOPT='-W:no-deprecated'
 export PATH="/usr/local/opt/node@10/bin:$PATH"
 export PATH=$(brew --prefix openvpn)/sbin:$PATH
 export PATH="/usr/local/opt/postgresql@9.6/bin:$PATH"

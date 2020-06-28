@@ -101,8 +101,9 @@ alias gempty="git commit --allow-empty -m"
 
 alias gist-cb="gist -p -c -o -P -d $(date "+%Y.%m.%d-%H.%M.%S")"
 alias gdelete="git ls-files --deleted | xargs git add" # staged only deleted files
-alias gitb="git rev-parse --abbrev-ref HEAD | tr -d '\n' | pbcopy"
+alias gcopy="git rev-parse --abbrev-ref HEAD | tr -d '\n' | pbcopy"
 
+alias gbranch="git --no-pager branch"
 
 #   ---------------------------
 #   FOLDERS
@@ -144,3 +145,5 @@ alias hpon="blueutil --connect cc-98-8b-f2-72-85"
 alias hpoff="blueutil --disconnect cc-98-8b-f2-72-85"
 alias wioff="networksetup -setairportpower airport off"
 alias wion="networksetup -setairportpower airport on"
+alias deletepid="rm /usr/local/var/postgresql@9.6/postmaster.pid"
+alias crap="git checkout -- db/structure.sql"

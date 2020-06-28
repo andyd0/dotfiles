@@ -62,6 +62,9 @@ sudo systemsetup -setrestartfreeze on
 # Disable Notification Center and remove the menu bar icon
 launchctl unload -w /System/Library/LaunchAgents/com.apple.notificationcenterui.plist 2> /dev/null
 
+# Disable System Preferences notification badge
+defaults write com.apple.systempreferences AttentionPrefBundleIDs 0
+
 ###############################################################################
 # Keyboard & Input                                                            #
 ###############################################################################
