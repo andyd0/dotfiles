@@ -107,6 +107,7 @@ export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 
 . ~/.zsh_aliases
+. ~/.zsh_t_aliases
 . ~/.zsh_functions
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
