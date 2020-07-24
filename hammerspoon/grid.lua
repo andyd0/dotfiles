@@ -40,7 +40,6 @@ hs.hotkey.bind(hyper, "l", function() hs.grid.resizeWindowWider() end)
 --- 234: resize grid
 hs.hotkey.bind(hyper, "2", function() hs.grid.setGrid('2x2'); hs.alert.show('Grid set to 2x2'); end)
 hs.hotkey.bind(hyper, "3", function() hs.grid.setGrid('3x3'); hs.alert.show('Grid set to 3x3'); end)
-hs.hotkey.bind(hyper, "4", function() hs.grid.setGrid('4x4'); hs.alert.show('Grid set to 4x4'); end)
 
 --- /: move window to next screen
 hs.hotkey.bind(hyper, "/", function() local win = getWin(); win:moveToScreen(win:screen():next()) end)
@@ -51,19 +50,30 @@ hs.hotkey.bind(hyper, ",", function() hs.grid.snap(getWin()) end)
 --- space: maximize window
 hs.hotkey.bind(hyper, "space", function() hs.grid.maximizeWindow() end)
 
---- layout does not work with Spotlight names
-local macbook = "Color LCD"
 local iterm = hs.appfinder.appFromName("iTerm2")
 local vscode = hs.appfinder.appFromName("Code")
+local chrome = hs.appfinder.appFromName("Google Chrome")
 
-local windowLayout = {
-  {vscode, nil, macbook, hs.layout.left50,  nil, nil},
-  {iterm,  nil, macbook, hs.layout.right50, nil, nil},
+local codingLayout = {
+  {vscode, nil, hs.screen.mainScreen(), hs.layout.left70,  nil, nil},
+  {iterm,  nil, hs.screen.mainScreen(), hs.layout.right30, nil, nil},
 }
 
-hs.hotkey.bind(hyper, '1', function()
+local codingLayoutChrome = {
+  {vscode, nil, hs.screen.mainScreen(), hs.layout.left50,  nil, nil},
+  {chrome,  nil, hs.screen.mainScreen(), hs.layout.right50, nil, nil},
+}
+
+hs.hotkey.bind(hyper, '6', function()
   hs.application.launchOrFocus("Visual Studio Code")
   hs.application.launchOrFocus("iTerm")
 
-  hs.layout.apply(windowLayout)
+  hs.layout.apply(codingLayout)
+end)
+
+hs.hotkey.bind(hyper, '7', function()
+  hs.application.launchOrFocus("Visual Studio Code")
+  hs.application.launchOrFocus("Google Chrome")
+
+  hs.layout.apply(codingLayoutChrome)
 end)
