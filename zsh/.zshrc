@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="~/.oh-my-zsh"
+export ZSH="/Users/andydavila/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -103,8 +103,6 @@ export PATH="/usr/local/opt/node@10/bin:$PATH"
 export PATH=$(brew --prefix openvpn)/sbin:$PATH
 export PATH="/usr/local/opt/postgresql@9.6/bin:$PATH"
 export ERL_AFLAGS="-kernel shell_history enabled"
-export PATH="$HOME/.rbenv/bin:$PATH"
-eval "$(rbenv init -)"
 
 . ~/.zsh_aliases
 . ~/.zsh_t_aliases
@@ -120,3 +118,5 @@ source /usr/local/share/zsh-history-substring-search/zsh-history-substring-searc
 
 bindkey '^[OA' history-substring-search-up
 bindkey '^[OB' history-substring-search-down
+
+ulimit -Sn 10240

@@ -624,7 +624,7 @@
 	<key>NSWindow Frame UKCrashReporter</key>
 	<string>848 212 592 584 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>1280 739 945 678 0 0 2560 1417 </string>
+	<string>1792 73 761 1344 0 0 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>1264 728 930 678 0 0 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
@@ -1277,7 +1277,7 @@
 			<key>Non-ASCII Ligatures</key>
 			<true/>
 			<key>Normal Font</key>
-			<string>SourceCodePro-Regular 14</string>
+			<string>SourceCodePro-Regular 15</string>
 			<key>Option Key Sends</key>
 			<integer>0</integer>
 			<key>Prompt Before Closing 2</key>
@@ -3066,8 +3066,8 @@
 		<string>3.3.1</string>
 		<string>3.3.5</string>
 		<string>3.3.9</string>
-		<string>3.3.0</string>
 		<string>3.2.9</string>
+		<string>3.3.0</string>
 		<string>3.3.4</string>
 	</array>
 	<key>NoSyncBFPRecents</key>
@@ -3083,9 +3083,9 @@
 	<key>NoSyncFrame_SessionsPreferences</key>
 	<dict>
 		<key>screenFrame</key>
-		<string>{{0, 0}, {1440, 900}}</string>
+		<string>{{0, 0}, {2560, 1440}}</string>
 		<key>topLeft</key>
-		<string>{269, 622}</string>
+		<string>{269, 595}</string>
 	</dict>
 	<key>NoSyncFrame_SharedPreferences</key>
 	<dict>
@@ -3105,7 +3105,7 @@
 	<key>NoSyncLastTipTime</key>
 	<real>591294900.38306797</real>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
-	<integer>120</integer>
+	<integer>132</integer>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
@@ -4037,7 +4037,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2020-07-23T12:00:03Z</date>
+	<date>2020-10-18T21:07:54Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SUUpdateRelaunchingMarker</key>

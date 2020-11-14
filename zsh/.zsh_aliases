@@ -105,6 +105,8 @@ alias gcopy="git rev-parse --abbrev-ref HEAD | tr -d '\n' | pbcopy"
 
 alias gbranch="git --no-pager branch"
 
+# git rebase --onto master <merged branch> <current branch>
+
 #   ---------------------------
 #   FOLDERS
 #   ---------------------------

@@ -56,3 +56,7 @@ function drm() {
 
   [ -n "$cid" ] && docker rm "$cid"
 }
+
+function checkout() {
+  git branch | grep $1 | xargs git checkout
+}
