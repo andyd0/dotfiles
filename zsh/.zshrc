@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/andydavila/.oh-my-zsh"
+export ZSH="/Users/<>/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -17,9 +17,9 @@ SPACESHIP_CHAR_SUFFIX=(" ")
 SPACESHIP_CHAR_COLOR_SUCCESS="yellow"
 SPACESHIP_PROMPT_DEFAULT_PREFIX="$USER"
 SPACESHIP_FIRST_PREFIX_SHOW="true"
-SPACESHIP_USER_SHOW="true"
-SPACESHIP_RUBY_SHOW="true"
+SPACESHIP_RUBY_SHOW="false"
 SPACESHIP_RUBY_PREFIX=""
+SPACESHIP_USER_SHOW="false"
 SPACESHIP_PACKAGE_SHOW="false"
 SPACESHIP_DOCKER_SHOW="false"
 SPACESHIP_KUBECONTEXT_SHOW="false"
@@ -94,11 +94,10 @@ export EDITOR='vim'
 # ssh
 # export SSH_KEY_PATH="~/.ssh/rsa_id"
 
-if [ -f ~/.bash_profile ]; then 
+if [ -f ~/.bash_profile ]; then
     . ~/.bash_profile;
 fi
 
-export RUBYOPT='-W:no-deprecated'
 export PATH="/usr/local/opt/node@10/bin:$PATH"
 export PATH=$(brew --prefix openvpn)/sbin:$PATH
 export PATH="/usr/local/opt/postgresql@9.6/bin:$PATH"
@@ -120,3 +119,5 @@ bindkey '^[OA' history-substring-search-up
 bindkey '^[OB' history-substring-search-down
 
 ulimit -Sn 10240
+
+DISABLE_MAGIC_FUNCTIONS=true

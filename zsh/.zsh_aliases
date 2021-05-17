@@ -77,16 +77,16 @@ alias glog='git log --graph --all --decorate'
 
 alias gp="git push" # + remote & branch names
 alias gpo="git push -u origin" # + branch name
-alias gpom="git push origin master"
+alias gpom="git push origin main"
 
 alias gl="git pull" # + remote & branch names
 alias glo="git pull origin" # + branch name
-alias glom="git pull origin master"
+alias glom="git pull origin main"
 
 alias gb="git branch" # + branch name
 alias gc="git checkout" # + branch name
 alias gcb="git checkout -b" # + branch name
-alias gm="git checkout master"
+alias gm="git checkout main"
 alias gprev="git checkout -"
 
 alias gac="git add . && git commit -m" # + commit message
@@ -118,16 +118,17 @@ alias backup="cd ~/Documents/config_files"
 alias practice="cd ~/Documents/practice/ct_practice"
 alias dotfiles="cd ~/.dotfiles"
 alias lunchable="cd ~/Documents/lunchable"
+alias microservice="cd ~/Documents/tp-payouts"
 
 
 #   ---------------------------
 #   Kubernetes
 #   ---------------------------
-# watch <cmd> / kubectl -w 
+# watch <cmd> / kubectl -w
 # kubectl get *
 # kubectl describe *
 # kubectl scale *
-# kubectl logs -f <pod> --namespace <namespace> 
+# kubectl logs -f <pod> --namespace <namespace>
 
 
 #   ---------------------------
