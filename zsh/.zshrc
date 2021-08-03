@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/<>/.oh-my-zsh"
+export ZSH="/Users/andydavila/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -17,8 +17,6 @@ SPACESHIP_CHAR_SUFFIX=(" ")
 SPACESHIP_CHAR_COLOR_SUCCESS="yellow"
 SPACESHIP_PROMPT_DEFAULT_PREFIX="$USER"
 SPACESHIP_FIRST_PREFIX_SHOW="true"
-SPACESHIP_RUBY_SHOW="false"
-SPACESHIP_RUBY_PREFIX=""
 SPACESHIP_USER_SHOW="false"
 SPACESHIP_PACKAGE_SHOW="false"
 SPACESHIP_DOCKER_SHOW="false"
